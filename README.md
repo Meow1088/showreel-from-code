@@ -83,3 +83,7 @@ Ba lỗi đã bắt được ở bước duyệt khung khi làm repo này:
 - **Đổi thời lượng hoặc độ phân giải:** sửa `W, H, FPS, DUR`. Nếu đổi `DUR` thì sửa luôn mốc cảnh trong `frame()` và `DUR` trong `music.py`.
 - **Đổi hợp âm:** sửa các dòng `pad([...])` trong `music.py` (số MIDI, 60 = C4).
 - **Thêm cảnh:** viết hàm `shot_xxx(u, t)` trả mảng `H×W×3` float (0..1+), rồi chèn vào `frame()` với crossfade 0.4s.
+
+## License
+
+MIT — xem [LICENSE](LICENSE).
